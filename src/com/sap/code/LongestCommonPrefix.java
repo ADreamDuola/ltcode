@@ -1,11 +1,8 @@
 package com.sap.code;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.List;
 /**最长公共前缀*/
 
-public class longestCommonPrefix {
+public class LongestCommonPrefix {
   public String solution(String[] strs){
     if(strs.length==0){
       return "";
@@ -27,7 +24,7 @@ public class longestCommonPrefix {
 
   public static void main(String[] args) {
     String[] str = new String[]{"abcd","ab","abcdmg"};
-    longestCommonPrefix test = new longestCommonPrefix();
+    LongestCommonPrefix test = new LongestCommonPrefix();
    String aa =  test.solution(str);
     System.out.println(aa);
 

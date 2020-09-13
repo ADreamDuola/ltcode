@@ -1,6 +1,6 @@
 package com.tang.code.algorithm;
 
-import sun.lwawt.macosx.CSystemTray;
+//import sun.lwawt.macosx.CSystemTray;
 
 /**
  * 爬楼梯算法
