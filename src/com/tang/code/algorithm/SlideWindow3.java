@@ -16,7 +16,7 @@ public class SlideWindow3 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		String str="abcdcfcabc";
+		String str="abcdcfcabcdefghi";
 		int res=findMaxLenBySildeWin(str.toCharArray());
 		System.out.println(res);
 	}

@@ -29,7 +29,7 @@ public class BinarySearch {
 	public static int twoSearch(int a,int[] arr) {
 		int minIdx = 0;//最小索引
 		int maxIdx = arr.length -1;//最大索引
-		int halfIdx = minIdx+(minIdx+maxIdx)/2;//中间位置索引
+		int halfIdx = minIdx+(maxIdx-minIdx)/2;//中间位置索引
 		while (minIdx<=maxIdx) {
 			if (arr[halfIdx]== a) {//找到结果
 				return halfIdx;

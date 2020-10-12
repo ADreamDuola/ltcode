@@ -49,7 +49,7 @@ public class ClimbTheStairs {
     }
 
     /**
-     * 方法3：备忘录法
+     * 方法3：备忘录法，回溯法
      * 时间复杂度为O(2^n),空间复杂度O(n)一维数组
      * @param n
      * @return
@@ -68,10 +68,10 @@ public class ClimbTheStairs {
         }
     }
     public static int dfs(int n, int[] array) {
-        if (array[n] != 0) {
+        if (array[n] == 0) {
+            array[n] = dfs(n - 1, array) + dfs(n - 2, array);
             return array[n];
         } else {
-            array[n] = dfs(n - 1, array) + dfs(n - 2, array);
             return array[n];
         }
     }
