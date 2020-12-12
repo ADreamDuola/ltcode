@@ -6,6 +6,7 @@ public class oddEvenList {
     System.out.println("merger test");
     System.out.println("hello case");
 //    System.out.println("fetch test2233556--");
-    System.out.println("fetch test88--1111");//tanghuan
+    System.out.println("fetch test88--1111");//tanghuan git fetch
+    System.out.println("fetch test99--");//tanghuan git pull
   }
 }
