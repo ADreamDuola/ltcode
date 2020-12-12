@@ -60,6 +60,13 @@ public class ProductArrays {
         result *= product;
       }
     }
+    System.out.println("test test testst");
+    // i =0 时，[10],[10,3],[10,3,7]三中subarry,算出result = 63000
+    // i =1 时，[3],[3,7] 算出result= 3969000
+    // i =2 时[7],算出最后的result = 27783000
+    // i =0 时，[10],[10,3],[10,3,7]三中subarry,算出result = 63000
+    // i =1 时，[3],[3,7] 算出result= 3969000
+    // i =2 时[7],算出最后的result = 27783000
     // i =0 时，[10],[10,3],[10,3,7]三中subarry,算出result = 63000
     // i =1 时，[3],[3,7] 算出result= 3969000
     // i =2 时[7],算出最后的result = 27783000
