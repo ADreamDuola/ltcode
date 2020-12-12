@@ -72,6 +72,10 @@ public class ProductArrays {
     // i =2 时[7],算出最后的result = 27783000
     System.out.println("test hello");
     System.out.println(result + "\n");
+    System.out.println("test hello");
+    System.out.println(result + "\n");
+    System.out.println("test hello");
+    System.out.println(result + "\n");
   }
 
   public static void main(String args[]) {
