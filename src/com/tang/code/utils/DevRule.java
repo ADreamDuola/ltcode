@@ -21,6 +21,7 @@ public class DevRule {
 		// TODO Auto-generated method stub
 		toList();
 		toArray();
+
 	}
 	/**
 	 * Arrays.asList坑点
