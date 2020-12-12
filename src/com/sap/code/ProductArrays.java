@@ -63,11 +63,13 @@ public class ProductArrays {
     // i =0 时，[10],[10,3],[10,3,7]三中subarry,算出result = 63000
     // i =1 时，[3],[3,7] 算出result= 3969000
     // i =2 时[7],算出最后的result = 27783000
+    System.out.println("test hello");
     System.out.println(result + "\n");
   }
 
   public static void main(String args[]) {
     int arr[] = {10, 3, 7};
     productSubArrays(arr);
+    System.out.println("test");
   }
 }
