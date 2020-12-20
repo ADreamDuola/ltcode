@@ -31,7 +31,6 @@ public class DoubleIndex2 {
 			fast=fast.next;
 			slow=slow.next;
 		}
-		
 		return slow;
 	}
 	
